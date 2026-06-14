@@ -33,7 +33,7 @@ This pipeline processes the [JHU CSSE COVID-19 daily reports](https://github.com
 
 ## Architecture
 
-![Data Flow Diagram](DataFlow.drawio.png)
+![Data Flow Diagram]([DataFlow.drawio.png](https://github.com/A7med-3laa227/COVID-19-Data-Pipeline/blob/main/DataFlow.png))
 
 > **Pipeline flow (left → right):**  
 > **CSV File** *(JHU CSSE daily report)* → **Ingestion** *(pandas via Python)* → **Transformation** *(Python / pandas)* → **Load** *(SQLAlchemy → PostgreSQL)* → **Reporting** *(Power BI)*  
